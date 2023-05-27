@@ -1,0 +1,73 @@
++------------------------+----------------------------------------+
+|     Python Cheatsheet  |                                        |
++------------------------+----------------------------------------+
+| Variables and Data     | Operators                               |
+| Types                  |                                        |
++------------------------+----------------------------------------+
+| Variable assignment:   | Arithmetic operators:                   |
+| variable_name = value  | +, -, *, /, %, **                       |
++------------------------+----------------------------------------+
+| Common data types:     | Comparison operators:                   |
+| int, float, str, bool,| ==, !=, <, >, <=, >=                    |
+| list, tuple, dict     |                                        |
++------------------------+----------------------------------------+
+| Control Flow           | Functions                               |
++------------------------+----------------------------------------+
+| Conditional statements:| Defining a function:                     |
+| if, elif, else        | def function_name(parameters):           |
++------------------------+----------------------------------------+
+| Looping constructs:   | Returning values:                        |
+| for, while            | return                                  |
++------------------------+----------------------------------------+
+| Lists                  | Strings                                 |
++------------------------+----------------------------------------+
+| Creating a list:       | Creating a string:                       |
+| my_list = [item1,     | my_string = 'Hello, World!'              |
+| item2, item3]        |                                        |
++------------------------+----------------------------------------+
+| Accessing elements:    | String concatenation:                    |
+| my_list[index]        | string1 + string2                        |
++------------------------+----------------------------------------+
+| Modifying elements:    | String methods:                          |
+| my_list[index] =      | upper(), lower(), split(),                |
+| new_value             | strip(), replace()                       |
++------------------------+----------------------------------------+
+| List methods:          |                                        |
+| append(), extend(),   |                                        |
+| insert(), remove(),   |                                        |
+| pop()                |                                        |
++------------------------+----------------------------------------+
+| Dictionaries           | Error Handling                          |
++------------------------+----------------------------------------+
+| Creating a dictionary: | Handling exceptions:                     |
+| my_dict = {'key1':   | try, except, finally                     |
+| value1, 'key2':      |                                        |
+| value2}             | Raising exceptions:                      |
+|                      | raise Exception('Error message')          |
++------------------------+----------------------------------------+
+| Accessing values:     |                                        |
+| my_dict['key']       |                                        |
++------------------------+----------------------------------------+
+| Modifying values:     |                                        |
+| my_dict['key'] =    |                                        |
+| new_value             |                                        |
++------------------------+----------------------------------------+
+| Dictionary methods:   |                                        |
+| keys(), values(),    |                                        |
+| items()              |                                        |
++------------------------+----------------------------------------+
+| File Handling          | Modules and Packages                     |
++------------------------+----------------------------------------+
+| Opening a file:        | Importing a module:                      |
+| file = open('filename',| import module_name                       |
+| 'mode')              |                                        |
++------------------------+----------------------------------------+
+| Reading file content:  | Importing specific                       |
+| content = file.read() | functions/classes:                       |
++------------------------+----------------------------------------+
+| Writing to a file:     | from module_name import                  |
+| file.write('content') | function_name                            |
++------------------------+----------------------------------------+
+| Closing a file:        | Creating your own module:                |
+| file.close()          | Save code in a .py file and import it    |
++------------------------+----------------------------------------+
